@@ -1,0 +1,27 @@
+Drowsiness Detection :- Drowsiness Detection System is the software system that will alert the driver as soon as he fell asleep.
+
+Approach steps- 
+
+1. Open the camera.
+2. Detect the face (Facial Regions)
+3. Find both eyes co-ordinates.
+4. Follow the eyebrows and if closed then alert. 
+
+
+Challenges - 
+
+1. How to know the eyebrows status (Open or Closed)/ Eye Aspect Ratio(EAR)?
+   Since, we have the eyes position. We can follow as - 
+ 
+	--> Calculate the distance between the upper and lower eyelids, and the corner of the eye
+	--> Divide the distances
+	--> Calculate the EAR for both eyes
+	--> Divide the sum of the EARs by 2 to find the average EAR 
+
+
+2. How to calculate the distance of the Eyelids/ EAR?
+   
+    EAR = ||p2-p6|| + ||p3-p5|| / 2||p1-p4||  i.e. we will find the Euclidean Distance.
+		
+    Euclidean Distance - It is the length of the line segment between two points in Euclidean space.
+   
