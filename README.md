@@ -16,4 +16,4 @@ This project is based on AI Computer Vision. The Drowsiness Detection System is 
 5. Winsound for Sound Alert
 
 ## Contact 
-For any feedback or queries, please reach out to me at [Linked](https://www.linkedin.com/in/krishnakumaragrawal/)
+For any feedback or queries, please reach out to me at [LinkedIn](https://www.linkedin.com/in/krishnakumaragrawal/)
